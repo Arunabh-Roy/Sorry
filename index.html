@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ff6961;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            color: white;
+            background-color: #ff6961;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ff5c5c;
+        }
+        #sorryMessage {
+            display: none;
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #2e8b57;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello Miss Mukherjee</h1>
+    <p>Aamake kuchu bolar aache ....</p>
+    <button onclick="showSorryMessage()">Tep Etake</button>
+    <p id="sorryMessage">I’m really sorry, aami jaantam na j tue aamar jonne wait korchilish. You know that ki aamar bhalo lagena tor saathe na kotha hole !! Plz.... Last time jonne Sorry Accept kore ne !! Seriously, aar emni bhul kono din korbona 😶 <br><br>Pakka Promise ❤ !!
+    </p>
+
+    <script>
+        function showSorryMessage() {
+            document.getElementById("sorryMessage").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
